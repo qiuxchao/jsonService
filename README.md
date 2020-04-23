@@ -6,6 +6,7 @@
 npm install
 npm run json:server
 ```
+然后就可以通过 *http://localhost:3000/users* 来请求到 JSON 数据了。
 ## json 文件
 项目中的 *db.json* 文件是用来被请求的 JSON 文件，您可以随意地修改它，并使用各种方法来请求它。
 下面是一些请求的格式
