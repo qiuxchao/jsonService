@@ -1,15 +1,15 @@
 # jsonService 本地JSON服务器
-这是一个使用 json-server 搭建的本地 JOSN 服务器，它可以用来测试各种请求，如 *get* *post* *put* *delete* 等请求方法；
+这是一个使用 json-server 搭建的本地 JSON 服务器，它可以用来测试各种请求，如 *get* *post* *put* *delete* 等请求方法；
 ## 使用项目
 要使用本项目在您的电脑上开启一个 json 服务器，您只需两行代码：
-```npm
+```shell
 npm install
 npm run json:server
 ```
 ## json 文件
 项目中的 *db.json* 文件是用来被请求的 JSON 文件，您可以随意地修改它，并使用各种方法来请求它。
 下面是一些请求的格式
-```Javascript
+```javascript
 // 获取所有用户信息
 http://localhost:3000/users
 
